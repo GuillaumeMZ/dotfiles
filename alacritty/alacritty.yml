@@ -1,0 +1,19 @@
+font:
+    normal:
+        family: "MesloLGSNerdFont"
+window:
+    padding:
+        x: 10
+        y: 10
+cursor:
+    style:
+        shape: "Underline"
+        blinking: "On"
+    blink_interval: 500
+    blink_timeout: 0
+    unfocused_hollow: false
+mouse:
+    hide_when_typing: true
+keyboard:
+    bindings:
+        - { key: "G", mods: "Control|Shift|Alt", action: "Copy" }
