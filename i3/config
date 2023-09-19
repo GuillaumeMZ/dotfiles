@@ -97,7 +97,7 @@ default_floating_border pixel 3
 # colors
 set $unused #000000
 set $active_color #af304f
-set $inactive_color #4b3573
+set $inactive_color #212121
 set $important_color #ff0000
 
 # class                 border  backgr. text    indicator        child_border
