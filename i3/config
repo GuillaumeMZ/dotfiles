@@ -14,14 +14,8 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
-# start a terminal
-bindsym $mod+t exec alacritty
-
 # kill focused window
 bindsym $mod+Shift+q kill
-
-# open the file explorer
-bindsym $mod+e exec --no-startup-id alacritty -e ranger
 
 # change focus
 bindsym $mod+Left focus left
@@ -121,6 +115,15 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+
+########################################
+#               Startup                #
+########################################
+
+# xrandr
+# TODO: move this so that it applies to lightdm-greeter
+exec --no-startup-id xrandr --output DP-4 --mode 1920x1080 --rate 240
+
 # start picom
 exec --no-startup-id picom --config /home/guillaume/.config/picom/picom.conf
 
@@ -130,6 +133,17 @@ exec --no-startup-id xwallpaper --stretch /home/guillaume/.config/wallpaper.png
 # start polybar
 exec --no-startup-id polybar -r
 
+
+########################################
+#             Keybindings              #
+########################################
+
+# start a terminal
+bindsym $mod+t exec alacritty
+
+# open the file explorer
+bindsym $mod+e exec --no-startup-id alacritty -e ranger
+
 # open rofi (app selection)
 bindsym $mod+space exec --no-startup-id rofi -show drun -show-icons
 
@@ -138,7 +152,3 @@ bindsym $mod+w exec --no-startup-id rofi -show window -show-icons
 
 # open rofi (custom power menu)
 bindsym $mod+Shift+p exec --no-startup-id rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu.sh
-
-# xrandr
-# TODO: move this so that it applies to lightdm-greeter
-exec --no-startup-id xrandr --output DP-4 --mode 1920x1080 --rate 240
