@@ -21,8 +21,7 @@ bindsym $mod+t exec alacritty
 bindsym $mod+Shift+q kill
 
 # open the file explorer
-# todo: switch to a terminal-based file explorer
-bindsym $mod+e exec thunar
+bindsym $mod+e exec --no-startup-id alacritty -e ranger
 
 # change focus
 bindsym $mod+Left focus left
