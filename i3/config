@@ -151,4 +151,4 @@ bindsym $mod+space exec --no-startup-id rofi -show drun -show-icons
 bindsym $mod+w exec --no-startup-id rofi -show window -show-icons
 
 # open rofi (custom power menu)
-bindsym $mod+Shift+p exec --no-startup-id rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu.sh
+bindsym $mod+Shift+p exec --no-startup-id "rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu.sh -theme-str 'inputbar { enabled: false; }'"
