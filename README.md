@@ -2,6 +2,7 @@
 * Bar: Polybar
 * Bootloader: Grub2
 * Compositor: picom
+* File manager: ranger
 * Launcher: Rofi
 * Network: systemd-networkd
 * Package managers: Pacman & Yay
@@ -24,7 +25,6 @@
 
 # TODO:
 * Clean the .gitignore
-* Edit the power menu to remove the search bar
 * Fix Firefox or find a chromium-based browser which is not Chrome
 * Open an issue in i3 about the inconsistent coloration of window borders
 * Remove the .config.save files
