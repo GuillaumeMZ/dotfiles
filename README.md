@@ -1,13 +1,14 @@
 # Tools:
-* Bar: Polybar
-* Bootloader: Grub2
+* Bar: polybar
+* Bootloader: grub2
 * Compositor: picom
 * File manager: ranger
-* Launcher: Rofi
+* Launcher: rofi
 * Network: systemd-networkd
-* Package managers: Pacman & Yay
+* Notifications manager: dunst
+* Package managers: pacman, yay
 * Shell: fish
-* Terminal: Alacritty
+* Terminal: alacritty
 * Wallpaper setter: xwallpaper
 * WM: i3
 
@@ -17,7 +18,7 @@
 
 # Themes:
 * Gtk: Adwaita-Dark
-* i3, Polybar, Rofi, Grub: custom theme
+* dunst, i3, Polybar, Rofi, Grub: custom theme
 
 # Fonts:
 * Noto
@@ -27,12 +28,9 @@
 * Clean the .gitignore
 * Fix Firefox or find a chromium-based browser which is not Chrome
 * Open an issue in i3 about the inconsistent coloration of window borders
-* Remove the .config.save files
 * Setup a theme for Grub
-* Setup disk encryption with LUKS and logical partitions with LVM
-* Setup Dunst
 * Setup Neovim
-* Setup NetworkManager and its tray applet
+* Setup NetworkManager and its tray applet (and get rid of systemd-networkd)
 * Setup Pamac-Manager and its tray applet
 * Setup Pipewire properly, add a "volume" mode in i3
 * Setup Ranger
