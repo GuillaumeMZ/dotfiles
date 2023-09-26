@@ -4,7 +4,7 @@
 * Compositor: picom
 * File manager: ranger
 * Launcher: rofi
-* Network: systemd-networkd
+* Network: NetworkManager
 * Notifications manager: dunst
 * Package managers: pacman, yay
 * Shell: fish
