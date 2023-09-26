@@ -6,6 +6,9 @@ window:
         x: 10
         y: 10
     opacity: 0.8
+colors:
+    primary:
+        background: '#212121'
 cursor:
     style:
         shape: "Underline"
