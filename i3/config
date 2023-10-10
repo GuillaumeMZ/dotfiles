@@ -141,6 +141,9 @@ exec --no-startup-id polybar -r
 # start nm-applet
 exec --no-startup-id nm-applet
 
+# start dunst
+exec --no-startup-id dunst
+
 ########################################
 #             Keybindings              #
 ########################################
