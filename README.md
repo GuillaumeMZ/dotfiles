@@ -7,7 +7,7 @@
 * Network: NetworkManager
 * Notifications manager: dunst
 * Package managers: pacman, yay
-* Shell: fish
+* Shell: zsh
 * Terminal: alacritty
 * Wallpaper setter: xwallpaper
 * WM: i3
