@@ -152,7 +152,7 @@ exec --no-startup-id dunst
 bindsym $mod+t exec alacritty
 
 # open the file explorer
-bindsym $mod+e exec --no-startup-id alacritty -e fish -c ranger
+bindsym $mod+e exec --no-startup-id alacritty -e zsh -c ranger
 
 # open rofi (app selection)
 bindsym $mod+space exec --no-startup-id rofi -show drun -show-icons
